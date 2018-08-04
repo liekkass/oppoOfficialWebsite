@@ -1,0 +1,345 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+
+@media (min-width:600px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+	.rentou-box,.tel-box {
+		width: 50% !important;
+	}
+	.tuijian ul li {
+		width: 50%!important;
+		float: left!important;
+	}
+	.desk-ptitle {
+		font-size: 2rem!important;
+	}
+	.desk-img {
+		height: 320px!important;
+	}
+	.desk {
+		height: 520px!important;
+	}
+	.desk-p1 a {
+		font-size: 15px!important;
+	}
+	.jx-p {
+		font-size: 3.5rem !important;
+	}
+}
+
+
+
+
+/* 品牌手机区域 */
+ body{
+ 	background-color: #F7F7F7;
+ }
+/* 导航区域 */
+.three-nav-box {
+	display: none;
+}
+/* 主体区域 */
+.desk {
+	width: 100% ;
+	height: 325px;
+	padding: 5px;
+	margin: 5px 0;
+	background-color: #fff;
+	border:1px solid #ccc;
+}
+.desk-ptitle {
+	font-size: 14px;
+	margin: 10px auto 0 auto;
+}
+.desk-ptitle a {
+	color: #333;
+	font-weight: bold;
+}
+.title {
+	width: 100%;
+	height: 35px;
+	position: relative;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.news {
+	font-size: 1rem;
+    padding: 4px 7px;
+    background-color: #E44F50;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none !important;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.news:hover {
+	color: #fff;
+}
+.day {
+	display: inline-block;
+	color: #7b7b7b;
+	margin-bottom: 0;
+	position: absolute;
+	top: 5px;
+    left: 67px;
+}
+.eye {
+	display: inline-block;
+	width: 22px;
+	height: 15px;
+	background: url(../../images/images-2/eye.png) no-repeat;
+	position: absolute;
+	top: 0px;
+    right: 55px;
+}
+.title span{
+	font-size: 1rem;
+	color: #7b7b7b;
+}
+.num-1 {
+	position: absolute;
+	top: 0px;
+    right: 10px;
+}
+.num-2 {
+	position: absolute;
+	top: 15px;
+    right: 10px;
+}
+.heard {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+    right: 57px;
+}
+.heard div {
+	display: inline-block;
+	background:url(../../images/images-2/heard.png);
+	width: 20px;
+	height: 20px;
+}
+.heard:visited div {
+	background:url(../../images/images-2/red-heard.png);
+}
+.heard:hover div {
+	background:url(../../images/images-2/red-heard.png);
+}
+.heard:hover {
+	top: 9px;
+}
+.share {
+	display: none;
+}
+
+/* desk图片区域 */
+.desk-img {
+	width: 100%;
+	height: 140px;
+	overflow: hidden;
+}
+.desk-img img {
+	width: 100%;
+}
+/* desk区域尾部 */
+.desk-p1 {
+	margin-top:15px;
+}
+.desk-p1 a {
+	font-size: 12px;
+	color: #333;
+	overflow: hidden;
+	text-overflow: ellipsis;  /* 溢出部分添加省略号 */
+	display: -webkit-box;     /* 一个伸缩盒子 */ 
+	-webkit-line-clamp: 2;   /* 规定显示的行数 */
+	-webkit-box-orient: vertical;   /* 子元素垂直向下排列 */
+}
+.desk-p2 {
+	text-align: right;
+}
+.desk-p2 a {
+	font-size: 12px;
+	color: #1f8657;
+}
+/* desk第二块和之后区域*/
+.fans {
+	background-color: #FABC3D !important;
+}
+.ceping {
+	background-color: #8DC63F !important;
+}
+
+/* aside右边信息区域 */
+.aside-box {
+	
+}
+.fenlei {
+	border:1px solid #ccc;
+	width: 100%;
+	height: 175px;
+	background-color: #fff;
+}
+.fenlei-p1 {
+	margin: 1.5rem 0;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #7B7B7B;
+	text-align: center;
+}
+.fen-1 {
+	
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.fenlei a {
+	display: inline-block;
+	margin: 0 2rem;
+	font-size: 20px;
+	text-decoration: none;
+	color: #333;
+}
+.fen-2 {
+	width: 50%;
+	height: 30px;
+	float: right;
+}
+.fen-3 {
+	float: left;
+	padding-top: 2rem;
+	width: 100%;
+	height: 45px;
+}
+/* 精选区域 */
+.jingxuan {
+	width: 100%;
+	background-color: #fff;
+	border:1px solid #ccc;
+	margin: 1rem 0;
+}
+.bck-jx {
+	width: 100%;
+	margin: 15px auto;
+	position: relative;
+	background-color: #000;
+}
+.bck-jx:hover .back-jx{
+	opacity: 0.5;
+}
+.bck-jx img {
+	width: 100%;
+}
+.back-jx {
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.3;
+}
+.jx-p{
+	position: absolute;
+	width: 100%;
+	top:30%;
+	color: #fff !important;
+	font-size: 2rem;
+	text-align: center;
+	z-index: 999;
+	font-weight: bold;
+}
+/* 推荐区域 */
+.tuijian {
+	background-color: #fff;
+	width: 100%;
+    margin: 1rem 0;
+    border:1px solid #ccc;
+}
+
+.tuijian ul li {
+	padding: 5px 0;
+	text-align: center;
+}
+.tuijian ul li a {
+	display: block;
+	text-decoration: none;
+	color: #009b72;
+	font-size: 1.5rem;
+	margin: 5px 0;
+}
+.tuijian ul li img{
+	display: block;
+	margin: 0 auto;
+}
+/* 底部导航区域 */
+.button-nav {
+	margin: 1rem 0;
+}
+.button-nav ul {
+	padding: 0;
+	list-style-type:none;
+}
+.button-nav ul li {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+.button-nav ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.button-nav ul li a:hover{
+	background-color: #1f8657;
+}
+.button-nav ul li a:hover span{
+	color: #fff;
+}
+.button-nav ul li span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #1f8657;
+}
+.dian {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+}

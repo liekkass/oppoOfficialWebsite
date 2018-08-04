@@ -1,0 +1,202 @@
+html{
+	font-size: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding:0;
+	font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;
+	color:#333;
+}
+a{
+	text-decoration: none;/*删除链接的下划线*/	
+}
+@media(min-width: 320px){
+	body{
+		font-size: 1.2rem;
+	}
+}
+@media(min-width: 375px){
+	body{
+		font-size: 1.4rem;
+	}
+}
+@media(min-width: 414px){
+	body{
+		font-size: 1.5rem;
+	}
+}
+@media(min-width:620px){
+	body{
+		font-size: 1.6rem;
+	}
+}
+/*头部*/
+.header{
+	height: 3rem;
+	background: #2aad6f;
+	color: #fff;
+	line-height: 3rem;
+	margin-bottom:3rem;
+
+}
+.w960{
+	width:100%;
+	margin: 0 auto;
+}
+.menu-sec{
+	float: left;
+}
+.menu-sec li{
+	border-left:1px solid #57b488;
+	display: block;
+	float: left;
+}
+.menu-sec li a{
+	cursor: pointer;
+	padding: 0.8rem 2rem;
+	color: #fff;
+	list-style: none;
+	font-family:Helvetica,;
+}
+.menu-sec li:hover a{
+	text-decoration: none;
+	background: #47b488;
+	list-style: none;
+}
+
+/*logo区域*/
+.min-box{
+	width: 100%;
+	margin: 0 auto;
+}
+.logo h3{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.logo1{
+	background: url(../image/logo.jpg) no-repeat;
+	background-size:100% 100%;
+	margin: 0 auto 2rem;
+	width: 30%;
+	height: 3rem;
+}
+.logo h3{
+	font-size: 1rem;
+	text-align: center;
+}
+
+/*文本框区域*/
+.register_form{
+	width: 20rem;
+	margin: 0 auto;
+	height: 90%;
+}
+.input_area{
+	position: relative;
+	margin-top: 1rem;
+}
+.username{
+	width:20rem;  
+	height: 3.5rem;
+	line-height: 3.5rem;
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	background: #fff;
+	border: 0.1rem solid #e2e2e2;
+}
+.vercode{
+	width:20rem;  
+	height: 3.5rem;
+	line-height:3.5rem;
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	background: #fff;
+	border: 0.1rem solid #e2e2e2;
+}
+/*忘记密码*/
+.pull-right{
+	margin-top: 20px;
+}
+.mima{
+	color: #00925f;
+	cursor: pointer;
+	text-decoration:underline;
+}
+/*按钮区域*/
+.button{
+	width: 20rem;
+	height: 3.5rem;
+	background-color:#2aad6f; 
+	color: #fff;
+	margin-top:1rem;
+	border: 0.1rem solid #b8c1bd;
+}
+#registerBtn{
+	display: block;
+	text-align: center;
+	width: 20rem;
+	height:3rem ;
+	line-height: 3rem;
+	font-size:1.3rem;
+	cursor: pointer;
+	background-color:#ddd;
+	color: #333; 
+}
+.dl:hover a{
+	text-decoration: none;
+}
+/* 小图标区域 */
+.qita1{
+	margin-top: 2rem;
+
+}
+.qita{
+	width:100%;
+	height: 2rem;
+	background: url(../image/ico_title.png) no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+}
+.qita2{
+	text-align: center;
+	padding-top: 2rem;
+}
+.other_link{
+	height: 3rem;
+	width: 3rem;
+	display: inline-block;
+	margin: 0 0.8rem;
+	vertical-align: middle;
+	text-align: center;
+}
+.ico_qq1{
+	background: url(../image/ico_qq.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq2{
+	background: url(../image/ico_wb.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq3{
+	background: url(../image/ico_alipay.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq4{
+	background: url(../image/ico_wx.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*尾部*/
+.footer_info{
+	color: #7b7b7b;
+	font-size:1rem;
+	text-align: center;
+	padding: 2rem 0;
+	position: relative;
+}
+/*搞定*/

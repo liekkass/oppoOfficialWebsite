@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link href="../css/bootstrap.min.css" rel="stylesheet">
+  	<script src="../js/jquery-1.11.1.min.js"></script>
+ 	  <script src="../js/bootstrap.min.js"></script>
+ 	  <link rel="stylesheet" type="text/css" media="screen and (min-width: 769px)" href="../css/oppo注册.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:320px) and (max-width:768px)" href="../css/oppo注册手机端.css">
+	<title>[oppo账号]-注册</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="w960">
+				<ul class="menu-sec">
+					<li><a href="../../../oppo.html" title="">oppo官网</a></li>
+					<li><a href="#" title="">oppo社区</a></li>
+					<li><a href="../../oppo coloros/html/oppo colorOS.html" title="">ColorOS</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 主体内容 -->
+	<div class="register-area">
+		<div class="register-title"><b>注册oppo账号</b></div>
+    <!-- /*文本框区域*/ -->
+			<form class="register_form" id="sms_form" action="/register/sms" method="post">
+            <div class="input_area">
+                <input type="text" id="mobile" name="mobile" autocomplete="off" class="username" value=""
+                placeholder="请输入手机号码" >
+            </div>
+            <div class="input_area">
+            	<input type="text" id="mobile" name="mobile" autocomplete="off" class="vercode" value="" placeholder="请输入验证码">
+                <div class="yzm">           	
+                   <img src="../image/captcha.jpg" alt="点击刷新验证码" title="点击刷新验证码" id="auth_code">
+                </div>
+            </div>
+              <!-- /*勾选区域*/ -->
+            <div class="field">
+              <div class="f1">
+                 <label id="forCheckBox" for="isaccept" class="checkBoxLabel choosed"></label>
+                  <input type="checkbox" id="isaccept" checked="checked" name="accept">
+                  <label id="checkBoxLabel1">已阅读并同意<a class="agree_link" href="http://uc.oppomobile.com/usercenter/document/340/register_simple.html" target="_blank">《OPPO帐号注册协议》</a></label>
+              </div>
+            </div>
+            <!-- 按钮 -->
+             <div class="zhuce">
+				      <b><input type="submit" class="button login_button" id="smsBtn" value="立即注册"></b>
+           </div>
+        </form>
+		</div>
+    <!-- 尾部 -->
+	 <div class="footer_info">
+         <p>© 2005 - 2016 东莞市永盛通信科技有限公司 版权所有 粤ICP备08130115号-1</p>
+   </div>
+	</div>
+</body>
+</html>

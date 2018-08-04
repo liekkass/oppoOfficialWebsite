@@ -1,0 +1,164 @@
+html{
+	font-size: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding:0;
+	font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;
+	color:#333;
+}
+a{
+	text-decoration: none;/*删除链接的下划线*/	
+}
+@media(min-width: 320px){
+	body{
+		font-size: 1.2rem;
+	}
+}
+@media(min-width: 375px){
+	body{
+		font-size: 1.4rem;
+	}
+}
+@media(min-width: 414px){
+	body{
+		font-size: 1.5rem;
+	}
+}
+@media(min-width:620px){
+	body{
+		font-size: 1.6rem;
+	}
+}
+/*头部*/
+.header{
+	height: 3rem;
+	background: #2aad6f;
+	color: #fff;
+	line-height: 3rem;
+	margin-bottom:3rem;
+
+}
+.w960{
+	width:100%;
+	margin: 0 auto;
+}
+.menu-sec{
+	float: left;
+}
+.menu-sec li{
+	border-left:1px solid #57b488;
+	display: block;
+	float: left;
+}
+.menu-sec li a{
+	cursor: pointer;
+	padding: 0.8rem 2rem;
+	color: #fff;
+	list-style: none;
+	font-family:Helvetica,;
+}
+.menu-sec li:hover a{
+	text-decoration: none;
+	background: #47b488;
+	list-style: none;
+}
+/*主体区域*/
+.register-area{
+	background: #fff;
+	border: 0.1rem solid #e1e1e1;
+	border-radius:0.5rem;
+	width: 85%;
+	height: 40rem;
+	margin:2rem auto 0;
+}
+.register-title{
+	color: #363636;
+	font-size:1rem;
+	text-align: center;
+	height: 11rem;
+	line-height: 11rem;
+	border-bottom: 0.1rem solid #e1e1e1;
+}
+/*文本框区域*/
+.register_form{
+	width: 20rem;
+	margin: 0 auto;
+	padding-top: 6rem;
+	height: 40rem;
+}
+.input_area{
+	position: relative;
+	margin-top: 1rem;
+}
+.username{
+	width:20rem;  
+	height: 3rem;
+	line-height: 3rem;
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	background: #fff;
+	border: 0.1rem solid #e2e2e2;
+}
+.vercode{
+	width:10rem;  
+	height: 3rem;
+	line-height:3rem;
+	display: block;
+	padding: 1rem 1rem;
+	font-size: 1rem;
+	background: #fff;
+	border: 0.1rem solid #e2e2e2;
+	margin-right: 0.5rem;
+}
+.yzm{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 9.5rem;
+	height: 3rem;
+	cursor: pointer;
+}
+img{
+	width: 9.5rem;
+	height: 3rem;
+}
+/*勾选区域*/
+.field{
+	height: 2rem;
+	line-height:1rem;
+	margin-top: 1rem;
+}
+.f1{
+	float: left;
+	color: #878b8a;
+	font-size: 1rem;
+}
+.agree_link{
+	color:#2aad6f;
+}
+.login_button{
+	margin-top:2rem;
+}
+/*注册按钮*/
+.button{
+	width: 20rem;
+	height: 3rem;
+	background-color:#2aad6f; 
+	color: #fff;
+}
+
+/*尾部*/
+.footer_info{
+	color: #7b7b7b;
+	font-size:1rem;
+	text-align: center;
+	margin-top:1rem;
+	padding: 2rem 0;
+	position: relative;
+}

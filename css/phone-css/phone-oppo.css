@@ -1,0 +1,794 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration: none !important;
+}
+ul {
+	list-style-type: none !important;
+}
+.text-center {
+	text-align: center;
+}
+@media (min-width: 320px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}	
+@media (min-width: 375px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.4rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 414px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.5rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 620px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.8rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width:525px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.text1 p,.text2 p {
+		font-size: 3rem !important;
+	}
+	.text1-a,.text2-a {
+		font-size: 2rem !important;
+	}
+	.text2-p {
+		font-size: 2.2rem !important;
+	}
+	.textb-1 {
+		float: left!important;
+		width: 50%!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+	#weibo-list p {
+		font-size: 17px!important;
+	}
+	.weibo-foot a {
+		font-size: 17px !important;
+	}
+	.xinlang-logo {
+		height: 50px !important;
+	}
+	.text3 {
+		height: 390px !important;
+	}
+	.rentou-box,.tel-box {
+		width: 50% !important;
+	}
+	.sub-navr a{
+		padding: 8px 3px !important;
+	}
+}
+/*点击隐藏区域*/
+.upper-wrapper {
+	display: none;
+}
+.global-box {
+	display: none;
+}
+/*头部区域 */
+.nav-topbox {
+	margin: 0;
+	padding: 0;
+	background-color:#009B72;
+	text-align: center;
+}
+.sub-nav {
+	width: 100%;
+}
+.sub-navf {
+	display: inline-block;
+	float: left;
+}
+.sub-navr {
+	display: inline-block;
+	float: right;
+}
+.sub-navf a {
+	display: inline-block;
+	padding: 5px 3px;
+	color: #fff;
+}
+.sub-navr a {
+	display: inline-block;
+	padding: 5px 3px;
+	color: #fff;
+}
+/* 第二导航 */
+.mian-navsm {
+	height: 3rem;
+}
+.shangcheng-ul {
+	display: none;
+}
+.logo {
+	width: 100%;
+	height:100%;
+}
+.logo a{
+	margin-top:0.8rem;
+	display: inline-block;
+	width: 100%;
+    height: 2.5rem;
+    background: url(../../images/images-1/oppo_logo.png) no-repeat;
+    background-size: 12rem;
+    background-position:center center;
+}
+.mian-navsm ul {
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.mian-navsm ul li{
+	text-align: center;
+	display: inline-block;
+	padding: 5px 3%;
+} 
+/*手机链接区域*/ 
+
+.photo-box {
+	margin: 1rem 0;
+	width: 100%;
+}
+.photo-left {
+	width: 50%;
+	float: left;
+}
+.photo-left img {
+	width: 100%;
+}
+.photo-right {
+	width: 50%;
+	float: right;
+}
+.photo-right img {
+	width: 100%;
+}
+/*消息区域*/
+.text1 {
+	width: 100%;
+}
+.text1 p {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #1f8657;
+	text-align: center;
+}
+.text1-a {
+	display: block;
+	font-size: 1.6rem;
+	text-decoration: none !important;
+	color: #393939;
+	font-weight: bold;
+	text-align: center;
+}
+.text1-b {
+	display:block;
+	margin-top:1rem;
+}
+.text1-b img {
+	width: 100%;
+}
+
+.text2 {
+	float: left;
+	width: 100%;
+	height: 345px;
+}
+.text2 p {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: #1f8657;
+	text-align: center;
+}
+.text2-a {
+	display: block;
+	font-size: 1.6rem;
+	text-decoration: none !important;
+	color: #393939;
+	font-weight: bold;
+	text-align: center;
+}
+.text2-c {
+	height: 90px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+.text-top {
+	margin-top:20px;
+}
+.text2-img {
+	margin-left: 6%;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	width: 68px;
+	height: 68px;
+	background:url(../../images/images-1/text2.jpg);
+}
+.text2-p {
+	font-size: 14px;
+	display: block;
+	margin-left: 10%;
+	margin-right: 3%;
+	text-decoration: none !important;
+	position: absolute;
+	top: 25px;
+	left: 75px;
+}
+.text2-img2 {
+	margin-left: 6%;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	width: 68px;
+	height: 68px;
+	background:url(../../images/images-1/text2-b.jpg);
+}
+.text2-img3 {
+	margin-left: 6%;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	width: 68px;
+	height: 68px;
+	background:url(../../images/images-1/text2-c.jpg);
+}
+
+.text3 {
+	margin-top:2rem;
+	float: left;
+	width: 100%;
+	height: 345px;
+	border:1px solid #2aad6f;
+}
+.xinlang-logo {
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #cccccc;
+	cursor:pointer;
+}
+.xl-lg {
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	margin-top:5px;
+	margin-left: 5px;
+}
+.xl-a {
+	text-decoration:none;
+	color: #0078B6;
+}
+.xl-a:hover {
+	color:#0078B6;
+	text-decoration: underline; 
+}
+.oppo-xl {
+	width: 100%;
+	height: 80px;
+	padding: 15px 0;
+	border-bottom: 1px solid #cccccc;
+}
+.back-oppo {
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(../../images/images-1/oppo.jpg);
+	margin:0 5px;
+}
+.guanzhu {
+	float: left;
+	margin-left: 10px;
+	height: 50px;
+}
+.guanzhu-top {
+	height: 50%;
+}
+.guanzhu-but{
+	height: 50%;
+}
+.gz-a1 {
+	font-size: 14px;
+	text-decoration:none;
+	color: #0078C5;
+}	
+.gz-a1:hover {
+	text-decoration:underline;
+	color: #0078C5;
+}
+.gz-span {
+	 color: #999;
+}
+.gz-a2 {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	padding:2px 14px;
+	border-radius: 4px;
+	background-color: #D9241B;
+	text-decoration:none;
+}
+.gz-a2:hover{
+	color: #fff;
+	background-color:#FB4955;
+	text-decoration:none;
+}
+/* 消息内容里的微博区域 */
+.weibo {
+	width: 100%;
+	height: 234px;
+}
+#weibo-list {
+	width: 100%;
+	margin: 0 auto;
+	height: 234px;
+	padding: 10px;
+}
+#weibo-list p {
+	font-size: 13px;
+	color: #595959;
+}
+.weibo-foot {
+	margin-top:5px;
+	text-align: right;
+	font-size: 12px;
+	color: #A6BBD2;
+}
+.weibo-time {
+	display: inline-block;
+	float: left;
+}
+
+/*   oppo 附加信息区域 */
+.textb-box-back {
+	padding: 0;
+	margin: 0;
+	background-color: #EDEDED;
+}
+.textb-box {
+	background-color: #EDEDED;
+}
+.textb-1 {
+	height: 305px;
+	width: 100%;
+	border-bottom: 5px solid #2aad6f;
+}
+.back-t1 {
+	background: url(../../images/images-1/text2-1.jpg) no-repeat;
+	background-size: 100%;
+}
+.back-t2 {
+	background: url(../../images/images-1/text2-2.jpg) no-repeat;
+	background-size: 100%;
+}
+.back-t3 {
+	background: url(../../images/images-1/text2-3.jpg) no-repeat;
+	background-size: 100%;
+}
+.back-t4 {
+	background: url(../../images/images-1/text2-4.jpg) no-repeat;
+	background-size: 100%;
+}
+.textb-1 p {
+	margin-bottom: 20px;
+	padding-top: 40px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.yuan {
+	margin: 0 auto;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	background-color: #2aad6f;
+	position: relative;
+}
+.yuan1 {
+	display: block;
+	width: 36px;
+	height: 37px;
+	background: url(../../images/images-1/ico1.png) no-repeat;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+}
+.yuan2 {
+	display: block;
+	width: 36px;
+	height: 37px;
+	background: url(../../images/images-1/ico2.png) no-repeat;
+	position: absolute;
+	top: 41px;
+	left: 46px;
+}
+.yuan3 {
+	display: block;
+	width: 36px;
+	height: 37px;
+	background: url(../../images/images-1/ico3.png) no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 45px;
+}
+.yuan4 {
+	display: block;
+	width: 36px;
+	height: 37px;
+	background: url(../../images/images-1/ico4.png) no-repeat;
+	position: absolute;
+	top: 45px;
+	left: 45px;
+}
+
+.yuan:hover {
+	background: #fff;
+}
+.yuan:hover .yuan1 {
+	background: url(../../images/images-1/ico-4.png) no-repeat;
+}
+.yuan:hover .yuan2 {
+	background: url(../../images/images-1/ico-1.png) no-repeat;
+}
+.yuan:hover .yuan3 {
+	background: url(../../images/images-1/ico-2.png) no-repeat;
+}
+.yuan:hover .yuan4 {
+	background: url(../../images/images-1/ico-3.png) no-repeat;
+}
+.textb-1 a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none; 
+}
+
+/* foot区域 */
+.foot {
+	width: 100%;
+	margin-top:2rem;
+}
+.foot1 {
+	margin-right: 10.5px;
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#2aad6f;
+}
+.foot1 img {
+	float: left;
+	padding-top:30px;
+	padding-left: 20%;
+}
+.foot1 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.foot2 {
+	margin-right: 10.5px;
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#EDEDED
+}
+.foot2 img {
+	padding-top:22px;
+	padding-left: 20%;
+}
+.foot2 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+}
+.foot3 {
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#2aad6f;
+}
+.foot3 img {
+	padding-top:22px;
+	padding-left: 20%;
+}
+.foot3 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.foot1 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot2 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot3 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot1 a:hover{
+	background-color: #47B488;
+}
+.foot2 a:hover{
+	background-color: #cccccc;
+}
+.foot3 a:hover{
+	background-color: #47B488;
+}
+/*  foot 区域第二块ul区域 */
+.footul {
+	width: 50%;
+	float: left;
+	height: 170px;
+	margin: 1rem 0;
+	border-bottom: 1px solid #cccccc;
+}
+.footul ul {
+	list-style-type: none;
+	padding-left: 2rem;
+}
+.footli-f {
+	margin-bottom: 30px;
+}
+.footli-f a {
+	font-size: 18px !important;
+	font-weight: bold;
+	color: #1f8657 !important;
+}
+.footul ul li {
+	padding: 3px 0;
+}
+.footul ul li a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #7B7B7B;
+}
+.footul ul li a:hover {
+	color: #2AAD6F;
+}
+/* foot区域关注我们第三块区域 */
+.footgy-box {
+	
+}
+.footgy {
+	
+}
+/*  第三块左边区域 */
+.footgy-f p {
+	display: inline-block;
+	font-size: 17px;
+	position: absolute;
+	top:18px;
+	width:80px;
+	 
+}
+.footgy-f {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+/* 新浪图标 */
+.xinlang{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 170px;
+}
+.xinlang div{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	background-color: #47B488;
+	position: relative;
+}
+.xinlang div span {
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	left: 6px;
+	width: 28px;
+	height: 24px;
+	background:url(../../images/images-1/xinlang2.png);
+}
+.xinlang div:hover {
+	background-color: #fff;
+	border:1px solid #47B488;
+}
+.xinlang div:hover span{
+	background:url(../../images/images-1/xinlang1.png);
+	display: inline-block;
+	position: absolute;
+	top: 9.5px;
+	left: 6.5px;
+	width: 27px;
+	height: 21px;
+}
+
+/* 微信图标 */
+.weixing{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+.weixing div{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	background-color: #47B488;
+	position: relative;
+}
+.weixing div span {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	width: 28px;
+	height: 24px;
+	background:url(../../images/images-1/weixing2.png);
+}
+.weixing div:hover {
+	background-color: #fff;
+	border:1px solid #47B488;
+}
+.weixing div:hover span{
+	background:url(../../images/images-1/weixing1.png);
+	display: inline-block;
+	position: absolute;
+	top: 9.5px;
+	left: 6.5px;
+	width: 27px;
+	height: 21px;
+}
+.erweima {
+	position: absolute;
+	display: none;
+	top:-142px;
+	left: -30px;
+}
+
+.jiaru-box {
+	display: none;
+}
+
+/* 第三块右边区域 */
+.footgy-r {
+	float: right;
+	width: 100%;
+	
+}
+.rentou-box {
+	float: left;
+	width: 100%;
+	
+}
+.rentou-box:hover {
+	cursor:pointer; 
+}
+.rentou {
+	float: left;
+	display: inline-block;
+	margin-top:60px;
+	width: 70px;
+	height: 70px;
+	background-color: #2AAD6F;
+	border-radius: 50%;
+	position: relative;
+}
+.rentou span {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 50px;
+	height: 40px;
+	background:url(../../images/images-1/rentou.png);
+}
+.rengong {
+	padding-left: 20px;
+	float: left;
+	display: inline-block;
+	width: 75%;
+	margin-top: 35px;
+}
+.rengong p span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #1f8657;
+}
+.rengong p {
+	font-size: 16px;
+	margin-bottom: 0;
+	color: #333;
+}
+.kefu {
+	margin-top:30px;
+}
+.tel-box {
+	float: left;
+	width: 100%;
+	
+}
+.tel {
+	background:url(../../images/images-1/tel.png) !important;
+}
+/* foot区域地址 */
+.dizhi {
+	position: relative;
+	text-align: center;
+}
+.dizhi span {
+	display: inline-block;
+	margin-top:30px;
+	color: #838383;
+}

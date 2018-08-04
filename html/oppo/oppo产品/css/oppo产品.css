@@ -1,0 +1,193 @@
+body{
+	font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;
+	background-color: #F1F0F0;
+}
+ul{
+	list-style: none;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+	color:#7b7b7b ;
+	cursor: pointer;
+
+}
+
+.product-index {
+	width: 1200px;
+	margin: 0 auto;
+	/*内容小首页区域*/
+}
+.product-index {
+	background-color: #f1f0f0;
+}
+.wapper{
+	padding: 0 0.75rem;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.shouye{
+	display: block;
+	padding: 10px 0 31px;
+}
+.shouye li{
+	float: left;
+	color: #7b7b7b;
+	font-size: 14px;
+}
+.shouye a{
+	color: #7b7b7b;
+	text-decoration:none;
+}
+.shouye a span{
+	padding: 0 10px;
+}
+	/*图片1区域*/
+.left-up{
+	position: relative;
+	width: 770px;
+	height: 364px;	
+}
+.left-up .left-up-img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 770px;
+}
+.left-up .left-up-text{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 770px;
+	z-index: 10;
+}
+/*缩放*/
+.hover-box{
+	display: block;
+	overflow: hidden;
+}
+.hover-box:hover .hover-animation {
+-webkit-transform: scale(1.05);
+}
+.left-down {
+	position: relative;
+	width: 770px;
+	height: 364px;
+	margin-top: 15px;
+}
+.left-down .left-down-img{
+	position: absolute;
+	width: 770px;
+	top: 0;
+	left: 0;
+}
+.left-down .left-down-text{
+	position: absolute;
+	width: 770px;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.whole-right{
+	position: relative;
+	width: 396px;
+	height: 738px;
+}
+.whole-right .whole-right-img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 396px;
+	height: 738px;
+}
+.whole-right .whole-right-text{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 396px;
+	height: 738px;
+	z-index: 10;
+}
+/*产品系列*/
+.box-products .wrapper{
+	padding: 0 0.75rem;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+.desk-title{
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	height: 30px;
+	width: 1176px;
+	background: url(oppo/oppo产品/image/线.png) no-repeat center;
+}
+.brick-name{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.brick-name span{
+	display: inline-block;
+	line-height: 20px;
+	height: 20px;
+	font-size: 20px;
+}
+.icon-more{
+	font-family: 'Microsoft YaHei';
+}
+/*第二版小图片*/
+.brick-item{
+	float: left;
+	background-color: #fff;
+	width: 286px;
+	padding: 60px 10px 45px;
+	margin-right: 9px;
+	border-bottom: none;
+	box-shadow: none;
+	-webkit-transform:translate3d(0, 0, 0);
+}
+.brick-item:hover {
+	box-shadow: 0 15px 30px #bbb;
+	-webkit-transform: translate3d(0, -2px, 0);
+}
+.brick-img{
+	float: none;
+	width: 100%;
+	padding-left: 52.5px;
+	padding-right: 52.5px;
+	display: block;
+}
+.brick-tu{
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+.brick-content{
+	float: none;
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+.brick-title{
+	margin-top: 35px;
+	font-size: 20px;
+	line-height: 20px;
+}
+.brick-desc{
+	font-size: 15px;
+	line-height: 20px;
+	margin: 10px auto; 
+}
+/*最后两张图*/
+.feature-item{
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
+
+
+

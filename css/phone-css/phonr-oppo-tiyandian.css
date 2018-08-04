@@ -1,0 +1,294 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration: none !important;
+}
+ul {
+	list-style-type: none !important;
+}
+.text-center {
+	text-align: center;
+}
+@media (min-width: 320px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}	
+@media (min-width: 375px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.4rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 414px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.5rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 620px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.8rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width:600px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+	.input-box {
+        top: 45px!important;
+        left: 35%!important;
+    }
+    .oppo-search-box {
+        height: 160px!important;
+    }
+	.map-right ul li {
+        width: 33.3%!important;
+    }
+    .ul-box {
+        width: 50%!important;
+        float: left!important;
+    }
+    .rond {
+        font-size: 1.5rem!important;
+    }
+    .box {
+        height: 50px !important;
+    }
+}
+
+/*  体验店手机区域*/
+body {
+	/*overflow: hidden;*/
+    background-color: #F6F6F6;
+}
+.oppo-search {
+	
+	position: relative;
+}
+
+.oppo-search-box {
+	width: 100%;
+	height: 80px;
+	background: url(../../images/imges-5/back-tiyan.jpg) no-repeat;
+	background-size: 100%;
+}
+.oppo-search input {
+	float: left;
+    font-size: 10px;
+    background: #FFF;
+    border-width: 1px;
+    border: 1px solid #cccccc;
+    width: 174px;
+    padding-right: 0;
+    padding: 7px;
+    border-radius: 8px 0 0 8px;
+    height: 28px;
+    border: none;
+}
+.oppo-search input:hover {
+	border: 1px solid #2AAD6F;
+}
+.oppo-search button {
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #2AAD6F;
+    color: #fff;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}
+.box {
+    width: 100%;
+    height: 15px;
+}
+.input-box {
+    margin: 0 auto;
+    width: 230px;
+    height: 40px;
+    padding: 6px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 8px;
+}
+
+/* 输入城市区域 */
+.city {
+    background-color: #fff;
+    height: 135px;
+    margin:  1rem 0;
+}
+.city span {
+    font-size: 16px;
+}
+.city-cx {
+    text-align: center;
+}
+.city-cx span {
+	display: block;
+	text-align: center;
+	padding: 1rem 0;
+}
+#select {
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+}
+/* map 区域 */
+.map-box {
+    background-color: #fff;
+}
+
+.map-left p {
+    margin: 0 20px;
+    padding:20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    border-top: 3px solid #1F8657;
+}
+.inline {
+    margin: 0 auto;
+    height: 20px;
+}
+.map-left img {
+    display: inline-block;
+   	width: 100%;
+   	padding:1rem;
+}
+.map-left a {
+    text-decoration: none;
+}
+
+.map-right p {
+	text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #393939;
+}
+.map-right ul {
+    padding: 0;
+    list-style-type: none;
+}
+.map-right ul li {
+	float: left;
+	width: 50%;
+    height: 45px;
+    padding: 7px 0;
+    margin: 5px 0;
+}
+.map-right ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.mapr-p {
+    width: 100%;
+    padding: 13px;
+    font-size: 14px;
+
+}
+/* 长沙ul区域 */
+.ul-box {
+	margin: 1rem 0;
+	padding: 0;
+}
+.h3-box h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    text-align: center;
+}
+.row-box {
+    background-color: #fff;
+  	width: 100%;
+    padding: 20px;
+}
+.rond {
+    margin-top:2rem;
+    height: 100%;
+    line-height: 100%;
+}
+.col-md-4 {
+	width: 100%;
+    border:1px solid #ccc;
+    padding: 10px 15px;
+    height: 80px;
+    background-color: #fff;
+}
+.col-md-4 p {
+
+}
+
+.cs-lif {
+    float: left;
+    width: 35px;
+    height: 48px;
+    background:url(../../images/imges-5/marker.png);
+}
+.cs-lif p {
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.cs-lir {
+    padding-left: 20px;
+    float: left;
+}
+.cs-p1 {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-top:2px;
+}
+.cs-p2 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #1f8657;
+}

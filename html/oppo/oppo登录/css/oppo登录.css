@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a:hover{
+	list-style: none;
+}
+/*头部*/
+.wrapper{
+	min-height: 680px;
+}
+.header{
+	height: 34px;
+	background: #2aad6f;
+	color: #fff;
+	line-height: 34px;
+	margin-bottom: 110px;
+	min-width: 960px;
+}
+.w960{
+	width: 960px;
+	margin: 0 auto;
+}
+.menu-sec{
+	float: left;
+}
+.menu-sec li{
+	border-left:1px solid #57b488;
+	display: block;
+	float: left;
+}
+.menu-sec li a{
+	cursor: pointer;
+	padding: 8px 20px;
+	color: #fff;
+	list-style: none;
+	font-family:Helvetica,;
+}
+.menu-sec li:hover a{
+	text-decoration: none;
+	background: #47b488;
+	list-style: none;
+
+}
+/*logo区域*/
+.min-box{
+	width: 360px;
+	margin: 0 auto;
+}
+.logo{
+	margin-bottom: 50px;
+}
+.logo1{
+	background: url(../image/logo.jpg) no-repeat;
+	background-size:100% 100%;
+	margin: 0 auto 20px;
+	width: 205px;
+	height: 34px;
+}
+.logo h3{
+	font-size: 16px;
+	text-align: center;
+}
+/*文本框区域*/
+.register_form{
+	width: 320px;
+	margin: 0 auto;
+	height: 484px;
+}
+.input_area{
+	position: relative;
+	margin-top: 15px;
+}
+.username{
+	width:320px;  
+	height: 46px;
+	line-height: 40px;
+	display: block;
+	padding: 12px 16px;
+	font-size: 16px;
+	background: #fff;
+	border: 2px solid #e2e2e2;
+}
+.vercode{
+	width:320px;  
+	height: 46px;
+	line-height: 40px;
+	display: block;
+	padding: 12px 16px;
+	font-size: 16px;
+	background: #fff;
+	border: 2px solid #e2e2e2;
+}
+.yzm{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 154px;
+	height: 46px;
+	cursor: pointer;
+}
+.field{
+	height: 25px;
+	line-height: 15px;
+	margin-top: 10px;
+}
+.f1{
+	float: left;
+	color: #878b8a;
+	font-size: 12px;
+}
+.agree_link{
+	color:#2aad6f ;
+}
+/*忘记密码*/
+.pull-right{
+	margin-top: 20px;
+}
+.mima{
+	color: #00925f;
+	cursor: pointer;
+	text-decoration:underline;
+}
+/*按钮区域*/
+.button{
+	width: 320px;
+	height: 46px;
+	background-color:#2aad6f; 
+	color: #fff;
+	margin-top:22px;
+	border: 1px solid #b8c1bd;
+}
+#registerBtn{
+	display: block;
+	text-align: center;
+	width: 320px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color:#ddd;
+	color: #333; 
+}
+.dl:hover a{
+	text-decoration: none;
+}
+/* 小图标区域 */
+.qita1{
+	margin-top: 20px;
+
+}
+.qita{
+	width: 318px;
+	height: 23px;
+	background: url(../image/ico_title.png);
+	margin: 0 auto;
+}
+.qita2{
+	text-align: center;
+	padding-top: 25px;
+}
+.other_link{
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	margin: 0 8px;
+	text-indent: -9999px;
+	vertical-align: middle;
+	text-align: center;
+}
+.ico_qq1{
+	background: url(../image/ico_qq.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq2{
+	background: url(../image/ico_wb.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq3{
+	background: url(../image/ico_alipay.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.ico_qq4{
+	background: url(../image/ico_wx.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*尾部*/
+.footer_info{
+	color: #7b7b7b;
+	font-size: 12px;
+	text-align: center;
+	padding: 24px 0;
+	position: relative;
+}

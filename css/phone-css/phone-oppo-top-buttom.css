@@ -1,0 +1,443 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration: none !important;
+}
+ul {
+	list-style-type: none !important;
+}
+.text-center {
+	text-align: center;
+}
+@media (min-width: 320px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}	
+@media (min-width: 375px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.4rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 414px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.5rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width: 620px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 1.8rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+}
+@media (min-width:600px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+	
+}
+/*点击隐藏区域*/
+.upper-wrapper {
+	display: none;
+}
+.global-box {
+	display: none;
+}
+/*头部区域 */
+.nav-topbox {
+	margin: 0;
+	padding: 0;
+	background-color:#009B72;
+	text-align: center;
+}
+.sub-nav {
+	width: 100%;
+}
+.sub-navf {
+	display: inline-block;
+	float: left;
+}
+.sub-navr {
+	display: inline-block;
+	float: right;
+}
+.sub-navf a {
+	display: inline-block;
+	padding: 5px 3px;
+	color: #fff;
+}
+.sub-navr a {
+	display: inline-block;
+	padding: 5px 3px;
+	color: #fff;
+}
+/* 第二导航 */
+.mian-navsm {
+	height: 3rem;
+}
+.shangcheng-ul {
+	display: none!important;
+}
+.logo {
+	width: 100%;
+	height:100%;
+}
+.logo a{
+	margin-top:0.8rem;
+	display: inline-block;
+	width: 100%;
+    height: 2.5rem;
+    background: url(../../images/images-1/oppo_logo.png) no-repeat;
+    background-size: 12rem;
+    background-position:center center;
+}
+.mian-navsm ul {
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.mian-navsm ul li{
+	text-align: center;
+	display: inline-block;
+	padding: 5px 3%;
+} 
+
+/* foot区域 */
+.foot {
+	width: 100%;
+	margin-top:2rem;
+}
+.foot1 {
+	margin-right: 10.5px;
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#2aad6f;
+}
+.foot1 img {
+	float: left;
+	padding-top:30px;
+	padding-left: 20%;
+}
+.foot1 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.foot2 {
+	margin-right: 10.5px;
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#EDEDED
+}
+.foot2 img {
+	padding-top:22px;
+	padding-left: 20%;
+}
+.foot2 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+}
+.foot3 {
+	width: 100%;
+	height: 112px;
+	float: left;
+	background-color:#2aad6f;
+}
+.foot3 img {
+	padding-top:22px;
+	padding-left: 20%;
+}
+.foot3 p {
+	padding-top:50px;
+	padding-right: 20%;
+	display: inline-block;
+	float: right;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+.foot1 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot2 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot3 a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.foot1 a:hover{
+	background-color: #47B488;
+}
+.foot2 a:hover{
+	background-color: #cccccc;
+}
+.foot3 a:hover{
+	background-color: #47B488;
+}
+/*  foot 区域第二块ul区域 */
+.footul {
+	width: 50%;
+	float: left;
+	height: 170px;
+	margin: 1rem 0;
+	border-bottom: 1px solid #cccccc;
+}
+.footul ul {
+	list-style-type: none;
+	padding-left: 2rem;
+}
+.footli-f {
+	margin-bottom: 30px;
+}
+.footli-f a {
+	font-size: 18px !important;
+	font-weight: bold;
+	color: #1f8657 !important;
+}
+.footul ul li {
+	padding: 3px 0;
+}
+.footul ul li a{
+	font-size: 13px;
+	text-decoration: none;
+	color: #7B7B7B;
+}
+.footul ul li a:hover {
+	color: #2AAD6F;
+}
+/* foot区域关注我们第三块区域 */
+.footgy-box {
+	
+}
+.footgy {
+	
+}
+/*  第三块左边区域 */
+.footgy-f p {
+	display: inline-block;
+	font-size: 17px;
+	position: absolute;
+	top:18px;
+	width:80px;
+	 
+}
+.footgy-f {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+/* 新浪图标 */
+.xinlang{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 170px;
+}
+.xinlang div{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	background-color: #47B488;
+	position: relative;
+}
+.xinlang div span {
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	left: 6px;
+	width: 28px;
+	height: 24px;
+	background:url(../../images/images-1/xinlang2.png);
+}
+.xinlang div:hover {
+	background-color: #fff;
+	border:1px solid #47B488;
+}
+.xinlang div:hover span{
+	background:url(../../images/images-1/xinlang1.png);
+	display: inline-block;
+	position: absolute;
+	top: 9.5px;
+	left: 6.5px;
+	width: 27px;
+	height: 21px;
+}
+
+/* 微信图标 */
+.weixing{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+}
+.weixing div{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	background-color: #47B488;
+	position: relative;
+}
+.weixing div span {
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	left: 6px;
+	width: 28px;
+	height: 24px;
+	background:url(../../images/images-1/weixing2.png);
+}
+.weixing div:hover {
+	background-color: #fff;
+	border:1px solid #47B488;
+}
+.weixing div:hover span{
+	background:url(../../images/images-1/weixing1.png);
+	display: inline-block;
+	position: absolute;
+	top: 9.5px;
+	left: 6.5px;
+	width: 27px;
+	height: 21px;
+}
+.erweima {
+	position: absolute;
+	display: none;
+	top:-142px;
+	left: -30px;
+}
+
+.jiaru-box {
+	display: none;
+}
+
+/* 第三块右边区域 */
+.footgy-r {
+	float: right;
+	width: 100%;
+	
+}
+.rentou-box {
+	float: left;
+	width: 100%;
+	
+}
+.rentou-box:hover {
+	cursor:pointer; 
+}
+.rentou {
+	float: left;
+	display: inline-block;
+	margin-top:60px;
+	width: 70px;
+	height: 70px;
+	background-color: #2AAD6F;
+	border-radius: 50%;
+	position: relative;
+}
+.rentou span {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 50px;
+	height: 40px;
+	background:url(../../images/images-1/rentou.png);
+}
+.rengong {
+	padding-left: 20px;
+	float: left;
+	display: inline-block;
+	width: 75%;
+	margin-top: 35px;
+}
+.rengong p span{
+	font-size: 20px;
+	font-weight: bold;
+	color: #1f8657;
+}
+.rengong p {
+	font-size: 16px;
+	margin-bottom: 0;
+	color: #333;
+}
+.kefu {
+	margin-top:30px;
+}
+.tel-box {
+	float: left;
+	width: 100%;
+	
+}
+.tel {
+	background:url(../../images/images-1/tel.png) !important;
+}
+/* foot区域地址 */
+.dizhi {
+	position: relative;
+	text-align: center;
+}
+.dizhi span {
+	display: inline-block;
+	margin-top:30px;
+	color: #838383;
+}

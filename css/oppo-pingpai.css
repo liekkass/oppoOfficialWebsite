@@ -1,0 +1,353 @@
+/* 品牌网页区域 */
+ body{
+ 	background-color: #F7F7F7;
+ }
+/* 导航区域 */
+.three-nav-box {
+	padding: 0;
+	border-top:;
+	background: #f7f7f7 !important;
+}
+.three-nav {
+	width: 1200px;
+	margin: 0 auto;
+	height: 40px;
+	padding: 40px 0;
+}
+.three-nav a{
+	margin-left: 10px;
+	font-size: 16px;
+	padding: 10px 40px;
+	background-color: #F7F7F7;
+	color: #333;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.three-nav a:hover {
+	padding: 10px 40px;
+	background-color: #2aad6f;
+	color: #fff;
+	border-radius: 3px;
+}
+/* 主体区域第一块 */
+.zhuti-box {
+	width: 1200px;
+	margin: 0 auto;
+	height: 2740px；
+}
+.zhuti {
+	width: 64%;
+	float: left;
+}
+.desk {
+	width: 720px;
+	height: 520px;
+	padding: 20px;
+	margin: 20px 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.desk:hover {
+	box-shadow: 2px 2px 10px #ccc;
+}
+.desk-ptitle {
+	font-size: 20px;
+}
+.desk-ptitle a {
+	color: #333;
+}
+.title {
+	width: 100%;
+	height: 35px;
+	position: relative;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.news {
+	font-size: 14px;
+	padding: 6px 8px;
+	background-color: #E44F50;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none !important;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+.news:hover {
+	color: #fff;
+}
+.day {
+	display: inline-block;
+	padding-left: 10px;
+	width: 400px;
+	font-size: 14px;
+	color: #7b7b7b;
+	margin-bottom: 0;
+	position: absolute;
+	top: 10px;
+	left: 80px;
+}
+.eye {
+	display: inline-block;
+	width: 22px;
+	height: 15px;
+	background: url(../images/images-2/eye.png) no-repeat;
+	position: absolute;
+	top: 13px;
+	right: 175px;
+}
+.title span{
+	font-zhuize: 14px;
+	color: #7b7b7b;
+}
+.num-1 {
+	position: absolute;
+	top: 10px;
+	right: 130px;
+}
+.num-2 {
+	position: absolute;
+	top: 10px;
+	right: 60px;
+}
+.heard {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 90px;
+}
+.heard div {
+	display: inline-block;
+	background:url(../images/images-2/heard.png);
+	width: 20px;
+	height: 20px;
+}
+.heard:visited div {
+	background:url(../images/images-2/red-heard.png);
+}
+.heard:hover div {
+	background:url(../images/images-2/red-heard.png);
+}
+.heard:hover {
+	top: 9px;
+}
+.share {
+	display: inline-block;
+	width: 19px;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+.share div {
+	display: inline-block;
+	background:url(../images/images-2/share.png);
+	width: 19px;
+	height: 20px;
+}
+.share:hover div{
+	background:url(../images/images-2/green-eye.png);
+}
+/* desk图片区域 */
+.desk-img {
+	box-sizing: border-box;
+	width: 680px;
+	height: 300px;
+	overflow: hidden;
+}
+.desk-img img {
+	vertical-align: middle;
+}
+/* desk区域尾部 */
+.desk-p1 {
+	margin-top:15px;
+}
+.desk-p1 a {
+	font-size: 13px;
+	color: #333;
+}
+.desk-p2 {
+	text-align: right;
+}
+.desk-p2 a {
+	font-size: 16px;
+	color: #1f8657;
+}
+/* desk第二块和之后区域*/
+.desk2 {
+	height: 540px !important;
+}
+.fans {
+	background-color: #FABC3D !important;
+}
+.desk3 {
+	height: 500px !important;
+}
+.desk5 {
+	height: 540px !important;
+}
+.ceping {
+	background-color: #8DC63F !important;
+}
+/* aside右边信息区域 */
+.aside-box {
+	width: 36%;
+	float: right;
+	height: 2740px;
+}
+.fenlei {
+	width: 100%;
+	height: 175px;
+	background-color: #fff;
+	margin: 20px 10px;
+}
+.fenlei:hover {
+	box-shadow: 2px 2px 10px #ccc;
+}
+.fenlei-p1 {
+	padding-top:25px;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #7B7B7B;
+}
+.fen-1 {
+	padding-left: 30px;
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.fenlei a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #333;
+}
+.fen-2 {
+	padding-right: 30px;
+	width: 50%;
+	height: 30px;
+	float: right;
+}
+.fen-3 {
+	float: left;
+	padding-top:15px;
+	padding-left: 30px;
+	width: 100%;
+	height: 45px;
+}
+/* 精选区域 */
+.jingxuan {
+	width: 100%;
+	height: 590px;
+	background-color: #fff;
+	padding: 10px;
+	margin: 20px 10px;
+}
+.jingxuan:hover {
+	box-shadow: 2px 2px 10px #ccc;
+}
+.bck-jx {
+	width: 376px;
+	margin: 15px auto;
+	height: 155px;
+	position: relative;
+	background-color: #000;
+}
+.bck-jx:hover .back-jx{
+	opacity: 0.5;
+}
+.back-jx {
+	position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.3;
+}
+.jx-p{
+	position: absolute;
+	width: 376px;
+	top:70px;
+	color: #fff !important;
+	font-size: 17px;
+	text-align: center;
+	z-index: 99;
+}
+/* 推荐区域 */
+.tuijian {
+	width: 100%;
+    height: 410px;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 10px;
+}
+.tuijian:hover {
+	box-shadow: 2px 2px 10px #ccc;
+}
+.tuijian-p {
+	padding-left: 40px !important;
+}
+.tuijian ul li {
+	padding: 5px 0;
+}
+.tuijian ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+}
+.tuijian ul li:hover {
+	color: #2AAD6F;
+}
+.tuijian ul li:hover img{
+	display: block;
+}
+.tuijian ul li a img {
+	display: none;
+}
+/* 底部导航区域 */
+.button-nav {
+	width: 1200px;
+	margin: 0 auto;
+	height: 50px;
+}
+.button-nav ul {
+	padding: 0;
+	list-style-type:none;
+}
+.button-nav ul li {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 12px;
+}
+.button-nav ul li a {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.button-nav ul li a:hover{
+	background-color: #1f8657;
+}
+.button-nav ul li a:hover span{
+	color: #fff;
+}
+.button-nav ul li span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #1f8657;
+}
+.dian {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: #fff;
+}

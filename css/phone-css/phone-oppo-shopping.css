@@ -1,0 +1,117 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+a {
+	text-decoration: none !important;
+}
+ul {
+	list-style-type: none !important;
+}
+.text-center {
+	text-align: center;
+}
+
+@media (min-width:525px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+	.phone div,.money-low {
+		font-size: 2rem!important;
+	}
+	.money-new,.money {
+		font-size: 3rem!important;
+	}
+	.oppo-shopping-box ul li {
+		height: 580px!important;
+	}
+	.sub-navr a{
+		padding: 8px 3px !important;
+	}
+}
+
+
+
+/* shopping区域 */
+/*在线商城网页主体区域*/
+body {
+	background-color: #F6F6F6;
+}
+.oppo-shopping-box {
+	
+}
+.oppo-shopping-box ul {
+	list-style-type: none;
+	padding: 0;
+}
+.oppo-shopping-box ul li {
+	float: left;
+	height: 325px;
+	width: 50%;
+	border:1px solid #E0E0E0;
+	background-color: #fff;
+}
+.oppo-shopping-box ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #333;
+}
+.phone a img{
+	width: 100%;
+}
+.phone {
+	margin: 0 auto;
+	text-align: center;
+}
+.phone div {
+	font-size: 1rem;
+}
+.money-low {
+	margin-top:1rem;
+	margin-bottom: 0.5rem;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+}
+.money-new {
+	text-align: center;
+	font-size: 2rem;
+	color: #f30;
+	font-weight: bold;
+}
+.oppo-shopping {
+	margin-top:2rem;
+}
+.money {
+	text-align: center;
+	font-size: 23px;
+	color: #1f8657;
+	font-weight: bold;
+}
+.but-back img {
+	width: 100%;
+}

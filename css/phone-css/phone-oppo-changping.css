@@ -1,0 +1,245 @@
+html {
+	font-size: 10px;
+}
+* {
+	padding: 0;
+	margin:0;
+}
+html{
+	font-size: 10px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding:0;
+	font-family: "Myriad Pro", Arial, "FZLanTingHei-R-GBK", 方正兰亭黑, "Microsoft YaHei", 微软雅黑, STHeiti, 华文黑体, SimSun, 宋体, sans-serif;
+	color:#333;
+}
+a{
+	text-decoration: none;/*删除链接的下划线*/	
+}
+@media(min-width: 320px){
+	body{
+		font-size: 1.2rem;
+	}
+}
+@media(min-width: 375px){
+	body{
+		font-size: 1.4rem;
+	}
+}
+@media(min-width: 414px){
+	body{
+		font-size: 1.5rem;
+	}
+}
+@media(min-width:620px){
+	body{
+		font-size: 1.6rem;
+	}
+}
+
+@media (min-width:600px) and (max-width:768px) {
+	body {
+		padding: 0;
+		margin:0;
+		font-size: 2rem;
+		font-family: "微软雅黑";
+		color: #333;
+	}
+	.mian-navsm ul li {
+		padding: 8px 5px!important;
+	}
+	.sub-navf a {
+		padding: 8px 5px!important;
+	}
+	.mian-navsm ul li a {
+		font-size: 2rem !important;
+		padding: 0 12px !important;
+	}
+	.footul {
+		width: 33.3% !important;
+		height: 230px !important;
+	}
+	.footul li a {
+		font-size: 2rem!important;
+	}
+}
+/*内容小首页区域*/
+.product-index {
+	background-color: #f1f0f0;
+}
+.wapper{
+	padding: 0 0.75rem;
+	margin: 0 auto;
+}
+.shouye{
+	display: block;
+	padding: 10px 0 31px;
+}
+.shouye li{
+	float: left;
+	color: #7b7b7b;
+	font-size: 14px;
+	display: inline-block;
+}
+.shouye a{
+	color: #7b7b7b;
+	text-decoration:none;
+}
+.shouye a span{
+	padding: 0 10px;
+}
+	/*图片1区域*/
+.left-up{
+	position: relative;
+	width: 100%;
+}
+.left-up .left-up-img{
+	
+	width:100%;
+}
+.left-up .left-up-text{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:100%;
+}
+/*缩放*/
+.hover-box{
+	display: block;
+	
+}
+.hover-box:hover .hover-animation {
+-webkit-transform: scale(1.05);
+}
+.left-down {
+	position: relative;
+	width: 100%;
+	margin-top: 15px;
+
+}
+.left-down .left-down-img{
+	width:100%;
+
+}
+.left-down .left-down-text{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+
+}
+.whole-right{
+	display: none;/*不占据原有空间的隐藏*/
+	position: relative;
+	width: 396px;
+	height: 738px;
+}/*
+.whole-right .whole-right-img{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 396px;
+	height: 738px;
+}
+.whole-right .whole-right-text{
+	position: absolute;
+	left:0;
+	top: 0;
+	width: 396px;
+	height: 738px;
+	z-index: 10;
+}
+*/
+/*产品系列*/
+.box-products .wrapper{
+	padding: 0 0.75rem;
+	margin: 0 auto;
+	margin-top:2rem;
+}
+.desk-title{
+	display: block;
+	text-align: center;
+	font-size: 2rem;
+	height: 2rem;
+	width:100%;
+	background: url(oppo/oppo产品/image/线.png) no-repeat center;
+}
+.brick-name{
+	display: block;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+.brick-name span{
+	display: inline-block;
+	line-height:1.5rem;
+	height: 1.5rem;
+	font-size:1.5rem;
+}
+.icon-more{
+	font-family: 'Microsoft YaHei';
+}
+
+/*第二版小图片*/
+.brick-item{
+	background-color: #fff;
+	width:100%;
+	padding:1.5rem;
+	margin-top: 1rem;
+	border-bottom: none;
+	box-shadow: none;
+	-webkit-transform:translate3d(0, 0, 0);
+}
+.brick-item:hover {
+	/*box-shadow: 0 1.5rem 3rem #bbb;*/
+	-webkit-transform: translate3d(0, -2px, 0);
+}
+.brick-img{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.brick-tu{
+	vertical-align: middle;
+	height: auto;
+}
+.brick-content{
+	float: none;
+	width: 100%;
+ 	margin-top: 1rem;
+	text-align: center;
+}
+.brick-title{
+	margin-top: 3rem;
+	font-size: 2rem;
+	line-height: 1.5rem;
+}
+.brick-desc{
+	font-size: 15px;
+	line-height: 20px;
+	margin: 10px auto; 
+}/*最后两张图*/
+.feature-item{
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+.center{
+	float:none !important;
+}
+.daxiao img{
+	width: 100%;
+	margin-top: 1rem;
+}
+.pull-left,.pull-right {
+	width: 100%;
+}
+.pull-left a  img {
+	width: 100%;
+}
+.pull-right a img {
+	width: 100%;
+}

@@ -1,0 +1,138 @@
+/* 轮播图区域 */
+.banner {
+	min-width: 1200px;
+	height: 525px;
+	overflow: hidden;
+}
+.carousel-inner .item1 img {
+	transform: translate(0, -14%);
+	width: 100%;
+}
+.carousel-inner .item2 img {
+	transform: translate(0, -15%);
+	width: 100%;
+}
+/*服务网页titile区域*/
+.title {
+	width: 1200px;
+	margin: 40px auto 20px auto;
+	height: 38px;
+}
+.title-r{
+	float: left;
+	width: 50%;
+}
+.title-r p{
+	font-size: 26px;
+	font-weight: bold;
+	color: #333;
+	margin: 0;
+}
+.title-f {
+	float: right;
+	width: 50%;
+	height: 38px;
+	text-align: right;
+	position: relative;
+}
+.title-f div {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #47B488;
+}
+.title-f div p {
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	margin: 0;
+}
+.title-f a {
+	padding-top:10px;
+	display: inline-block;
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+}
+/*图片点击区域*/
+
+
+.row-img {
+	width: 1200px;
+	height: 140px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.row-1{
+	width: 280px;
+	height: 140px;
+}
+/* title区域 */
+.row-2 {
+	width: 380px;
+	height: 150px;
+	border-bottom:10px solid #47b488;
+	position: relative;
+}
+.row-2 span {
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	background:url(../images/imges-7/down-1.png) no-repeat;
+	position: absolute;
+	top: 100px;
+	right: 25px;
+	z-index: 99;
+}
+
+/* hidden隐藏图片区域*/
+.hidden-img {
+	margin: 0 auto;
+	width: 1200px;
+	height: 300px;
+	border:1px solid #E0E0E0;
+	display: none;
+}
+.col-md-3 {
+	margin-top:20px;
+}
+/*服务网页热点问题区域*/
+.redian {
+	width: 1200px;
+	margin: 50px auto 0 auto;
+	height: 400px;
+}
+.redian-l {
+	float: left;
+	width: 47%;
+}
+.redian-r {
+	float: right;
+	width: 47%;
+}
+.redian p {
+	line-height: 70px;
+	font-size: 28px;
+	color: #393939;
+	font-weight: bold;
+	border-bottom: 1px solid #E2E2E2;
+	margin: 0;
+}
+.redian ul {
+	padding: 0;
+	list-style-type: none;
+}
+.redian ul li {
+	padding: 20px 0;
+	border-bottom: 1px solid #E2E2E2;
+}
+.redian ul li a {
+	text-decoration: none !important;
+	font-size: 16px;
+	color:#333;
+}
+.redian ul li a:hover {
+	color: #2DAF73;
+}
